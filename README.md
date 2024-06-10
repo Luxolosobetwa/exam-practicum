@@ -27,4 +27,50 @@ error massage that comes up when I click the button to go through to the last pa
 ![Screenshot (13)](https://github.com/Luxolosobetwa/exam-practicum/assets/164026160/bcb34d15-cb03-4594-b63a-82b50c7f360f)
 error massage 
 
+ psuedocode 
+ 
+START
+
+DISPLAY Splash Screen
+  DISPLAY Name and Student Number
+  WAIT for 3 seconds
+
+NAVIGATE to Main Screen
+
+MAIN SCREEN
+  DISPLAY Weekly Weather (Days, Min Temps, Max Temps, Weather Conditions)
+  DISPLAY Average Temperature
+  DISPLAY Button "Next to Detailed View"
+
+IF Button "Next to Detailed View" Clicked THEN
+  NAVIGATE to Second Screen
+
+SECOND SCREEN
+  DISPLAY Editable Table (Days, Min Temps, Max Temps, Weather Conditions)
+  DISPLAY Button "Clear Data"
+  DISPLAY Button "Reinput Data"
+  DISPLAY Button "Next to Detailed View"
+  DISPLAY Average Temperature
+
+  IF Button "Clear Data" Clicked THEN
+    CLEAR Table Data
+    UPDATE Table
+    UPDATE Average Temperature
+
+  IF Button "Reinput Data" Clicked THEN
+    SAVE Table Data
+    UPDATE Average Temperature
+
+  IF Button "Next to Detailed View" Clicked THEN
+    SAVE Table Data
+    NAVIGATE to Third Screen
+
+THIRD SCREEN
+  DISPLAY Non-Editable Table (Days, Min Temps, Max Temps, Weather Conditions)
+  DISPLAY Button "Back to Main Screen"
+
+  IF Button "Back to Main Screen" Clicked THEN
+    NAVIGATE to Main Screen
+
+stop 
 
