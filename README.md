@@ -10,6 +10,7 @@ then on the second screen the splash screen it will be where i sort my arrays wh
 then still same screen i will calculating the avarage temperature for the week 
 lastly on detailed view screen it is where i will showing of all the data that has been collected through out the week and have a button that will navigate to the main screen .
 
+[Drawing3.pdf](https://github.com/user-attachments/files/15766388/Drawing3.pdf)
 
 ![Screenshot (1)](https://github.com/Luxolosobetwa/exam-practicum/assets/164026160/0f99918c-2962-4a88-af5b-eddcaba4bbe7)
 this is the splash screen or the first screen 
