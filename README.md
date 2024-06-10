@@ -1,5 +1,7 @@
 # exam-practicum
 Luxolo sobetwa : ST10443381
+https://github.com/Luxolosobetwa/exam-practicum.git
+
 the way i see the app is that its purpose is about tracking the weather
 in the app i will be creating an app that will be keeping the all the information of the weather service that has been recording during the week 
 the first thing i need todo is that I have to create 3 screens the plash screen , the main screen and the detailed view sreen 
